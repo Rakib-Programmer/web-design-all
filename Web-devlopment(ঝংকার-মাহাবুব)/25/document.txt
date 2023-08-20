@@ -1,0 +1,7 @@
+
+কোন error এ কি হয়  তার error list search করার জন্য : http status codes
+
+search: HTTP get VS post
+
+
+question: what is AJEC search

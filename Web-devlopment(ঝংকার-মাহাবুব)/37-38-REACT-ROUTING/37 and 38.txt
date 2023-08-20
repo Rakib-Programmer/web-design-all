@@ -1,0 +1,7 @@
+
+38 number module
+1) Order Review এর ভিতরে  remove button এর কাজ 
+2) Order Review এর ভিতরে  card component add
+3) Shop এর ভিতরে  NaN Remove 
+4) Shop এর ভিতরে card compnant reload not remove
+5) Order Review এর ভিতরে (  card compoment এ shop এর ভিতরে deffrant button and Order Review এর ভিতরে deffrant button) and  place order button এর কাজ

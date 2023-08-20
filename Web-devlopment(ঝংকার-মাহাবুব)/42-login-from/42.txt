@@ -1,0 +1,11 @@
+42 ar 
+
+
+2-6) user sign in and user sign up
+
+serch
+
+2)
+ email validation: javascript regular expression for email;
+password validation:  javascript regular expression check contains number
+

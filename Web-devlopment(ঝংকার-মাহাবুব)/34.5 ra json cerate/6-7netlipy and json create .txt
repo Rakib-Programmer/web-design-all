@@ -1,0 +1,6 @@
+https://app.netlify.com/teams/rakib-programmer/sites
+
+file search: ctrl + p
+
+https://www.mockaroo.com/
+https://json-generator.com/

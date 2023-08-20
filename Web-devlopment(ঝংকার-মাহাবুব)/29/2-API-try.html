@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="actiity">Your Work</h1>
+    <h3>Learn from <a id="explore-link" href=""> Visit this placr</a></h3>
+
+    <script>
+        function doSomthing(){
+            fetch('http://www.boredapi.com/api/activity')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('actiity').innerText =data.activity;
+                // console.log(data);
+            })
+        }
+        doSomthing()
+        setInterval(() => {              // setInterval or setTimeout দিলে :  5 minute পরপর call হবে
+            doSomthing()
+        }, 5000);
+
+        setTimeout(() => {
+            
+        }, timeout);
+    </script>
+</body>
+</html>
+
+
+
+// search : bored activity api

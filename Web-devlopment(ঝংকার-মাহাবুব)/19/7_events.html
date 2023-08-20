@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evens</title>
+    <style>
+        /* h1{
+            background-color: tomato;
+        } */
+    </style>
+  </head>
+  <body>
+    <h1 onclick="handieClick()">Exploring events</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum officia rerum distinctio nisi cumque fugiat porro blanditiis dolores laborum. Dolor, illo dolorum quae soluta quisquam rem magnam labore commodi placeat, sed vero accusantium esse! Officiis nobis est iusto commodi rem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p>Accusantium quo eligendi doloribus debitis quis. Vitae.</p>
+    <p>Ut, architecto magni ea blanditiis molestias aspernatur.</p>
+    <button>Click me-1</button>
+    <button id="secound">Click me-2</button>
+    <button id="lastPerson">Click me-3</button>
+  </body>
+
+  <script>
+    // function handieClick() {
+    //     console.log('someone is over me')
+    // }
+
+    document.getElementById('lastPerson').addEventListener('click', function() {
+        document.body.style.color = 'tomato'
+    })
+
+    function hendleClick() {
+      document.body.style.backgroundColor = "cyan";
+    }
+    const secoundButton = document.getElementById("secound");
+    secoundButton.onclick = hendleClick;
+
+    // secoundButton.addEventListener("click", hendleClick)
+
+    // const secoundButton = document.getElementById("secound");
+    // secoundButton.onclick = function(){
+    //     console.log('secound person Clicked')
+    // }
+  </script>
+</html>

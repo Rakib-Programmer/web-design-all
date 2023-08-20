@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Exploring</title>
+    <style>
+        article{
+            border: 2px solid tomato;
+            border-radius: 20px;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h3>article-1</h3>
+        <p class="author">author-1</p>
+        <P class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates, architecto aliquam consequatur a quo incidunt perferendis, assumenda dolor repellendus error quidem maxime perspiciatis enim expedita distinctio natus amet voluptatibus!</P>
+    </article>
+    <article>
+        <h3>article-2</h3>
+        <p class="author">author-2</p>
+        <P class="description">Recusandae exercitationem veritatis natus nulla. Impedit facere voluptatem officia, temporibus fugiat perspiciatis ex libero voluptate natus numquam recusandae veniam ea consectetur. Officia quia ullam perspiciatis fuga nesciunt odit eius consectetur.</P>
+    </article>
+    <article>
+        <h3>article-3</h3>
+        <p class="author">author-3</p>
+        <P class="description">Tenetur mollitia, exercitationem fugit optio corporis pariatur obcaecati repellat corrupti assumenda asperiores quam quidem provident consectetur quos aperiam. Maiores fugiat in, doloribus laborum aspernatur consequatur cum aliquam sint dicta aut!</P>
+    </article>
+    <script>
+        var authors = document.getElementsByClassName('author')
+        for(var i = 0; i < authors.length; i++){
+            var element = authors[i];
+            element.style.backgroundColor = 'lightblue';
+            element.style.margin = '20px'
+        }
+        
+        
+    </script>
+</body>
+</html>

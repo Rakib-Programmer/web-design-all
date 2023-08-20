@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bubble</title>
+</head>
+<body>
+    <div id="comtainer">
+        <h1>my list</h1>
+        <ul id="myList">
+            <li id="first" class="itcm">Lorem, ipsum dolor.</li>
+            <li class="itcm">Commodi, repudiandae molestiae.</li>
+            <li class="itcm">Repudiandae, amet provident.</li>
+            <li class="itcm">Doloribus, sit? Necessitatibus.</li>
+            <li class="itcm">Ex, beatae velit!</li>
+        </ul>
+    </div>
+</body>
+<script>
+    document.getElementById('first').addEventListener('click', function(){
+        console.log("first item clicked");
+    })
+    document.getElementById('myList').addEventListener('click', function(){
+        console.log("ul item clicked");
+        // event.stopPropagation();             ------------ class 9 ar video ta asay
+    })
+    document.getElementById('comtainer').addEventListener('click', function(){
+        console.log("comtainer clicked");
+    })
+</script>
+</html>
